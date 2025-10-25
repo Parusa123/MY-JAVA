@@ -1,0 +1,11 @@
+public class HellOMATE{ 
+
+  public static void main(String[]args){
+
+ String x="you can see my java projects and simple problems here";
+
+System.out.println(x);
+
+}
+
+}
