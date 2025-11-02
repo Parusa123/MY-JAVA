@@ -8,11 +8,15 @@ public class SimpleCalculator {
         System.out.print("Enter first number: ");
         double num1 = sc.nextDouble();
 
-        System.out.print("Enter second number: ");
+        System.out.print("Enter second number: 12");
         double num2 = sc.nextDouble();
 
         // Input operator
-        System.out.print("Enter operator (+, -, *, /): ");
+        System.out.println("=======Enter operator======= ");
+        System.out.println("Enter (+) For Addition");
+        System.out.println("Enter (-) For Subtraction");
+        System.out.println("Enter (*) For Multiplication");
+        System.out.println("Enter (/) For Division");
         char operator = sc.next().charAt(0);
 
         double result;
