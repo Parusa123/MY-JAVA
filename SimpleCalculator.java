@@ -6,10 +6,10 @@ public class SimpleCalculator {
 
         // Input numbers
         System.out.print("Enter first number: ");
-        double num1 = sc.nextDouble();
+        int num1 = sc.nextInt();
 
         System.out.print("Enter second number: ");
-        double num2 = sc.nextDouble();
+        int num2 = sc.nextInt();
 
         // Input operator
         System.out.println("=======Enter operator======= ");
@@ -19,7 +19,7 @@ public class SimpleCalculator {
         System.out.println("Enter (/) For Division");
         char operator = sc.next().charAt(0);
 
-        double result;
+        int result;
 
         switch (operator) {
             case '+':
