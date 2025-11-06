@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class SimpleCalculator {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner calc = new Scanner(System.in);
 
         // Input numbers
-        System.out.print("Enter first number: ");
-        double num1 = sc.nextDouble();
+        System.out.print("Enter the first number: ");
+        double num1 = calc.nextDouble();
 
-        System.out.print("Enter second number: ");
-        double num2 = sc.nextDouble();
+        System.out.print("Enter the second number: ");
+        double num2 = calc.nextDouble();
 
         // Input operator
         System.out.println("=======Enter operator======= ");
@@ -17,7 +17,7 @@ public class SimpleCalculator {
         System.out.println("Enter (-) For Subtraction");
         System.out.println("Enter (*) For Multiplication");
         System.out.println("Enter (/) For Division");
-        char operator = sc.next().charAt(0);
+        char operator = calc.next().charAt(0);
 
         double result;
 
@@ -46,6 +46,6 @@ public class SimpleCalculator {
                 System.out.println("Invalid operator!");
         }
 
-        sc.close();
+        calc.close();
     }
 }
