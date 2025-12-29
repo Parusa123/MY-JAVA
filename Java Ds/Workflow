@@ -1,0 +1,45 @@
+┌─────────────────────────────────────────────────────────────┐
+│ 1. ARRAYS (Fixed Size)                                      │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ int[] arr = {1,2,3}; arr[0]=10;                         │ │
+│ │ Arrays.sort(arr); Arrays.binarySearch(arr,2);           │ │
+│ └─────────────────────────────────────────────────────────┘ │
+│                                                             │
+│ 2. ARRAYLIST (Dynamic List)                                 │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ ArrayList<String> list = new ArrayList<>();             │ │
+│ │ list.add("A"); list.get(0); list.remove(0);            │ │
+│ │ list.size(); list.contains("A"); list.clear();         │ │
+│ └─────────────────────────────────────────────────────────┘ │
+│                                                             │
+│ 3. SET FAMILY (Unique Elements)                             │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ HashSet<String> hset = new HashSet<>();                 │ │
+│ │ hset.add("A"); hset.contains("A"); // No order, no dups │ │
+│ │                                                          │ │
+│ │ LinkedHashSet<String> lhset = new LinkedHashSet<>();    │ │
+│ │ lhset.add("A"); // Maintains insertion order           │ │
+│ └─────────────────────────────────────────────────────────┘ │
+│                                                             │
+│ 4. HASHMAP (Key-Value Pairs)                                │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ HashMap<String,Integer> map = new HashMap<>();          │ │
+│ │ map.put("age",25); map.get("age"); map.remove("age");  │ │
+│ │ map.keySet(); map.values(); map.entrySet();            │ │
+│ └─────────────────────────────────────────────────────────┘ │
+│                                                             │
+│ 5. STACK & QUEUE (LIFO/FIFO)                                │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ Stack<Integer> stack = new Stack<>();                   │ │
+│ │ stack.push(1); stack.pop(); stack.peek();              │ │
+│ │ LinkedList<String> queue = new LinkedList<>();          │ │
+│ │ queue.offer("task"); queue.poll();                      │ │
+│ └─────────────────────────────────────────────────────────┘ │
+│                                                             │
+│ 6. UTILITY METHODS (Collections Class)                      │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ Collections.sort(list); Collections.reverse(list);     │ │
+│ │ Collections.max(set); Collections.min(set);             │ │
+│ │ Collections.frequency(list,"A");                        │ │
+│ └─────────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
