@@ -1,4 +1,4 @@
-# ☕ Java Problem Solving Repository
+#  Java Problem Solving Repository
 
 A collection of problem-solving solutions implemented in Java, focusing on data structures, algorithms, and logical reasoning. This repository showcases efficient coding practices and analytical thinking.
 
